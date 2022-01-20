@@ -3,7 +3,7 @@
     "bootstrap": "^5.1.3"
   },
   "scripts": {
-    "build":"purgecss --css maqueta/css/custom.css --content index.html -o maqueta/css/reducido.css"
+    "build":"purgecss --css /css/custom.css --content index.html -o /css/reducido.css"
 
   }
 }
