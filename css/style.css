@@ -9,12 +9,17 @@ html {
 
   }
   .home{
+  
     min-height: 100vh;
     display: flex;
-    padding: 30px;
+    
     justify-content: center;
     align-items: center;
     padding-bottom:0px;
+    flex-wrap: wrap;
+  }
+  .home .navbar {
+    background-color: transparent !important;
   }
   .home .navbar-brand{
     font-size: 34px;
@@ -22,6 +27,7 @@ html {
     color: #be3208; 
     }
 .home__background{
+  
     background-color:#8e8e8e;
     background-image:url(..//fondopag.png);
     background-attachment: fixed;
@@ -31,6 +37,7 @@ html {
     width: 100%;
     position: absolute;
     z-index: index -1;
+    min-height: 100vh;
 }
 .home__profile {
     height: 250px;
