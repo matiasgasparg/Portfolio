@@ -1,0 +1,17 @@
+
+.home__profile {
+    margin-top: 100px;
+  }
+
+  .home__title {
+    font-size: 30px;
+  }
+
+  .home__title--primary,
+  .home__title--secondary {
+    font-size: 25px;
+  }
+  .home .navbar {
+    background-color: #000000f7 !important;
+    
+  }

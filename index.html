@@ -9,11 +9,12 @@
     <script src='main.js'></script>
     <link rel="stylesheet" href="./css/custom.css">
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./media.css" media="(max-width: 991px)" />
 </head>
 <body>
 <header class="home">
     <!-- Cambiar el bg-dark al negro de la imagen de fondo-->
-    <nav class="navbar navbar-light fixed-top navbar-expand-lg bg-dark ">
+    <nav class="navbar fixed-top navbar-light fixed-top navbar-expand-lg bg-dark ">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
             MG
@@ -25,7 +26,7 @@
             <div class="collapse navbar-collapse align-items-center flex-grow" id="objnavbarNav">
                 <ul class="navbar-nav m-auto" role="group" aria-label="basic example">
                     <li class="nav-item ">
-                        <a class="nav-link text-white fs-5" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active text-white fs-5" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-white fs-5" href="#">About</a> 
@@ -49,13 +50,13 @@
     <section id="home" class="home">
     <div class="home__background"></div>
     <picture>
-        <source type="image/webp" srcset="2.webp" />
-        <source type="image/jpeg" srcset="2.jpeg" />
-        <img class="home__profile d-flex d-sm-inline-flex" alt="picture profile" data-sr-id="2" style="visibility: visible; opacity: 1; transition: filter 3s ease 0s, opacity 0.6s cubic-bezier(0.5, 0, 0, 1) 0.35s;">
+        <source type="image/webp" srcset="fotoperfil.webp" />
+        <source type="image/jpeg" srcset="fotoperfil.png" />
+        <img class="home__profile d-flex d-sm-inline-flex" alt="picture profile" data-sr-id="fotoperfil" style="visibility: visible; opacity: 1; transition: filter 3s ease 0s, opacity 0.6s cubic-bezier(0.5, 0, 0, 1) 0.35s;">
       </picture>
       <div class="home__description">
-        <span class="home__title--primary d-flex">Hi!</span>
-        <h1 class="home__title">I'm Matias Gaspar</h1>
+        <span class="home__title--primary d-flex">Hola!</span>
+        <h1 class="home__title">Soy Matias Gaspar</h1>
         <span class="home__title--secondary">Full Stack Developer</span>
       </div>
     </section>
